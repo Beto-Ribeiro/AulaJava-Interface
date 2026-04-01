@@ -5,6 +5,7 @@
 package aula02interface;
 
 import figuras3D.Cubo;
+import figuras3D.Esfera;
 import figuras3D.Ponto3D;
 import figuras3D.SegReta3D;
 
@@ -41,7 +42,7 @@ public class main {
         Ponto3D p1 = new Ponto3D(4, 6, 8);
         SegReta3D sr01 = new SegReta3D(p0, p1);
         System.out.println(sr01);
-        */
+
 
         Ponto3D p0 = new Ponto3D(0,0,0);
         Cubo cb1 = new Cubo(p0, 3);
@@ -54,6 +55,19 @@ public class main {
         }
 
         System.out.println(cb1);
+        System.out.println("Humberto Araujo Ribeiro Neto"); */
+
+        Ponto3D centro = new Ponto3D(0,0,0);
+        Esfera esfera01 = new Esfera(centro, 3);
+
+        System.out.println(esfera01);
+
+        for(int i = 0; i < 10; i++){
+            esfera01.moveXYZ(1, 1, 1);
+            System.out.println(esfera01);
+        }
+
+        System.out.println(esfera01);
         System.out.println("Humberto Araujo Ribeiro Neto");
     }
     
