@@ -1,4 +1,5 @@
 package figuras3D;
+import java.lang.Math;
 
 public class Esfera implements Figuras3D{
     private Ponto3D centro;
